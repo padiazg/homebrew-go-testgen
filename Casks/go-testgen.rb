@@ -4,22 +4,22 @@ cask "go-testgen" do
 
   on_macos do
     on_intel do
-      sha256 "b4200290594d4694ee2a028da7d87a8c7c2258247e4094e36acaa290c273645b"
+      sha256 "8df7899df42a2ceb817da54a9b47acf39c742b368255d92171f6ff1feb14085d"
       url "https://github.com/padiazg/go-testgen/releases/download/v#{version}/go-testgen_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "d88aaadc2484e439a833ac7aa15b3d23669b5cbd419b26d8761a944f854e5139"
+      sha256 "8e0a809e17963929231ca0e211d776562d40bf7cb361ca104bc42aa9174006f1"
       url "https://github.com/padiazg/go-testgen/releases/download/v#{version}/go-testgen_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "f35e89a5ae52ee67277b0be77cc5d8c0e15163b636d9b1e2e92a1fe9d7fc21ce"
+      sha256 "2ff7781bdd7c132a07c5c71c3ad5d0583cb0d82035bec7074b0861bdf4513fb7"
       url "https://github.com/padiazg/go-testgen/releases/download/v#{version}/go-testgen_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "b1f3c73595ab740f923493524ce5b5073ea9f6293a921f329206154e74506fdb"
+      sha256 "87049b5aa552bb990b4a5cc2d95607723fc43882bb334d76351329e743838311"
       url "https://github.com/padiazg/go-testgen/releases/download/v#{version}/go-testgen_#{version}_linux_arm64.tar.gz"
     end
   end
